@@ -1,4 +1,5 @@
 source ~/.config/nvim/plugins.vim
+source ~/.config/nvim/plugins_config.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -44,6 +45,10 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+
+" Use H and L to move to next/previous tabs
+nnoremap H gT
+nnoremap L gt
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts

@@ -1,4 +1,3 @@
-https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/iTerm2/Tomorrow%20Night%20Eighties.itermcolors## Base config
 limit coredumpsize 0
 
 # History config

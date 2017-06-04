@@ -4,8 +4,10 @@ tap "neovim/neovim"
 
 brew "ack"
 brew "coreutils"
+brew "fzf"
 brew "neovim/neovim/neovim"
 brew "node"
+brew "tree"
 brew "wget"
 brew "zplug"
 brew "zsh"
@@ -19,3 +21,5 @@ cask "postman"
 cask "slack"
 cask "spotify"
 cask "vlc"
+
+mas "cointick", id: 1141688067

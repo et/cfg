@@ -10,7 +10,12 @@ Plug 'mhartington/oceanic-next'
 Plug 'elixir-lang/vim-elixir'
 
 " Utilities
-Plug 'neomake/neomake'
+Plug 'w0rp/ale'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'roxma/nvim-completion-manager'
+Plug 'roxma/nvim-cm-tern', {'do': 'npm install'}
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Initialize plugin system
 call plug#end()
